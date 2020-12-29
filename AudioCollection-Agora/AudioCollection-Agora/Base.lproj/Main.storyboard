@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -16,30 +17,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXn-fh-U9S">
-                                <rect key="frame" x="157" y="428" width="100" height="40"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kDZ-l9-PGK">
+                                <rect key="frame" x="67.5" y="280.5" width="279" height="335"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXn-fh-U9S">
+                                        <rect key="frame" x="89.5" y="0.0" width="100" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="8Nk-nM-fGC"/>
+                                            <constraint firstAttribute="width" constant="100" id="qSx-jV-omX"/>
+                                        </constraints>
+                                        <state key="normal" title="join channel"/>
+                                        <connections>
+                                            <action selector="onpressedBtnJoinChannel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pY2-jN-kpt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rah-h2-otA">
+                                        <rect key="frame" x="89" y="134" width="100" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <state key="normal" title="switch sdk"/>
+                                        <connections>
+                                            <action selector="onpressedBtn2SDK:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8rx-cW-Rcw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Zt-yj-sHD">
+                                        <rect key="frame" x="84" y="267" width="112" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <state key="normal" title="switch audiounit"/>
+                                        <connections>
+                                            <action selector="onpressedBtn2unit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="82s-Xf-FNt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="7Ur-RF-buP"/>
-                                    <constraint firstAttribute="height" constant="40" id="iAT-xQ-rAW"/>
+                                    <constraint firstAttribute="width" constant="279" id="Eub-ix-Pli"/>
+                                    <constraint firstAttribute="height" constant="335" id="O0r-2e-FTP"/>
+                                    <constraint firstItem="PXn-fh-U9S" firstAttribute="centerX" secondItem="kDZ-l9-PGK" secondAttribute="centerX" id="inv-Wf-kuH"/>
+                                    <constraint firstItem="PXn-fh-U9S" firstAttribute="top" secondItem="kDZ-l9-PGK" secondAttribute="top" id="lZP-in-7cn"/>
                                 </constraints>
-                                <state key="normal" title="join channel"/>
-                                <connections>
-                                    <action selector="onpressedBtnJoinChannel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zTY-1W-qnD"/>
-                                </connections>
-                            </button>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="PXn-fh-U9S" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6NG-Se-eZl"/>
-                            <constraint firstItem="PXn-fh-U9S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ulM-OQ-qgv"/>
+                            <constraint firstItem="kDZ-l9-PGK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BzT-Ae-Nus"/>
+                            <constraint firstItem="kDZ-l9-PGK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sr8-9E-Tjd"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="142" y="139"/>
+            <point key="canvasLocation" x="140.57971014492756" y="138.61607142857142"/>
         </scene>
     </scenes>
     <resources>

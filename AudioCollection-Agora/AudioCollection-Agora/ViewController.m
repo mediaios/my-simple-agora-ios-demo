@@ -42,6 +42,23 @@
     [MIAudioUnit shareInstance].agoraEngine = self.agoraKit;
 }
 
+- (IBAction)onpressedBtn2SDK:(id)sender {
+    [[MIAudioUnit shareInstance] stopAudioUnitRecorder];
+    
+    [self.agoraKit disableAudio];
+    
+    [self.agoraKit disableExternalAudioSource];
+    [self.agoraKit enableLocalAudio:YES];
+    [self.agoraKit enableAudio];
+    [self.agoraKit muteLocalAudioStream:NO];
+}
+
+
+- (IBAction)onpressedBtn2unit:(id)sender {
+    [self.agoraKit enableExternalAudioSourceWithSampleRate:48000 channelsPerFrame:1];
+    [[MIAudioUnit shareInstance] startAudioUnitRecorder];
+}
+
 
 - (void)rtcEngine:(AgoraRtcEngineKit *_Nonnull)engine didJoinChannel:(NSString *_Nonnull)channel withUid:(NSUInteger)uid elapsed:(NSInteger)elapsed
 {
