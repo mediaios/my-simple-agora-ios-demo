@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B6B97D0259ADFCF007F2106 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B97CF259ADFCF007F2106 /* AppDelegate.m */; };
+		1B6B97D3259ADFCF007F2106 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B97D2259ADFCF007F2106 /* SceneDelegate.m */; };
+		1B6B97D6259ADFCF007F2106 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B97D5259ADFCF007F2106 /* ViewController.m */; };
+		1B6B97D9259ADFCF007F2106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B97D7259ADFCF007F2106 /* Main.storyboard */; };
+		1B6B97DB259ADFD2007F2106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B97DA259ADFD2007F2106 /* Assets.xcassets */; };
+		1B6B97DE259ADFD2007F2106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B97DC259ADFD2007F2106 /* LaunchScreen.storyboard */; };
+		1B6B97E1259ADFD2007F2106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B97E0259ADFD2007F2106 /* main.m */; };
+		1B6B97EB259ADFD2007F2106 /* AudioCollection_AgoraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B97EA259ADFD2007F2106 /* AudioCollection_AgoraTests.m */; };
+		1B6B97F6259ADFD2007F2106 /* AudioCollection_AgoraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B97F5259ADFD2007F2106 /* AudioCollection_AgoraUITests.m */; };
+		1B6B982E259AE345007F2106 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B982D259AE345007F2106 /* AudioToolbox.framework */; };
+		1B6B9830259AE34C007F2106 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B982F259AE34C007F2106 /* AVFoundation.framework */; };
+		1B6B9832259AE353007F2106 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B9831259AE353007F2106 /* CoreMedia.framework */; };
+		1B6B9834259AE359007F2106 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B9833259AE359007F2106 /* CoreML.framework */; };
+		1B6B9836259AE360007F2106 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B9835259AE360007F2106 /* CoreTelephony.framework */; };
+		1B6B9838259AE373007F2106 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B9837259AE36C007F2106 /* libc++.tbd */; };
+		1B6B983C259AE382007F2106 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B983B259AE37B007F2106 /* libresolv.tbd */; };
+		1B6B9840259AE389007F2106 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B983F259AE389007F2106 /* SystemConfiguration.framework */; };
+		1B6B9842259AE391007F2106 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B9841259AE391007F2106 /* VideoToolbox.framework */; };
+		1B6B9848259AE3C5007F2106 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B9847259AE3C5007F2106 /* Accelerate.framework */; };
+		1B6B984E259AE416007F2106 /* AgoraRtcKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B984D259AE416007F2106 /* AgoraRtcKit.framework */; };
+		1B6B9855259AE513007F2106 /* MIAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B9854259AE513007F2106 /* MIAudioUnit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B6B97E7259ADFD2007F2106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B6B97C3259ADFCF007F2106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B6B97CA259ADFCF007F2106;
+			remoteInfo = "AudioCollection-Agora";
+		};
+		1B6B97F2259ADFD2007F2106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B6B97C3259ADFCF007F2106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B6B97CA259ADFCF007F2106;
+			remoteInfo = "AudioCollection-Agora";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B6B9813259AE189007F2106 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B6B97CB259ADFCF007F2106 /* AudioCollection-Agora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioCollection-Agora.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6B97CE259ADFCF007F2106 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B6B97CF259ADFCF007F2106 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B6B97D1259ADFCF007F2106 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1B6B97D2259ADFCF007F2106 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1B6B97D4259ADFCF007F2106 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B6B97D5259ADFCF007F2106 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B6B97D8259ADFCF007F2106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B6B97DA259ADFD2007F2106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B6B97DD259ADFD2007F2106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B6B97DF259ADFD2007F2106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6B97E0259ADFD2007F2106 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B6B97E6259ADFD2007F2106 /* AudioCollection-AgoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AudioCollection-AgoraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6B97EA259ADFD2007F2106 /* AudioCollection_AgoraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioCollection_AgoraTests.m; sourceTree = "<group>"; };
+		1B6B97EC259ADFD2007F2106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6B97F1259ADFD2007F2106 /* AudioCollection-AgoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AudioCollection-AgoraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6B97F5259ADFD2007F2106 /* AudioCollection_AgoraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioCollection_AgoraUITests.m; sourceTree = "<group>"; };
+		1B6B97F7259ADFD2007F2106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6B982D259AE345007F2106 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1B6B982F259AE34C007F2106 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1B6B9831259AE353007F2106 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1B6B9833259AE359007F2106 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		1B6B9835259AE360007F2106 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1B6B9837259AE36C007F2106 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1B6B983B259AE37B007F2106 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		1B6B983F259AE389007F2106 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1B6B9841259AE391007F2106 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		1B6B9847259AE3C5007F2106 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		1B6B984D259AE416007F2106 /* AgoraRtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcKit.framework; sourceTree = "<group>"; };
+		1B6B9853259AE513007F2106 /* MIAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIAudioUnit.h; sourceTree = "<group>"; };
+		1B6B9854259AE513007F2106 /* MIAudioUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIAudioUnit.m; sourceTree = "<group>"; };
+		1B6B9858259AE528007F2106 /* MIConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIConst.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B6B97C8259ADFCF007F2106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6B9832259AE353007F2106 /* CoreMedia.framework in Frameworks */,
+				1B6B984E259AE416007F2106 /* AgoraRtcKit.framework in Frameworks */,
+				1B6B9840259AE389007F2106 /* SystemConfiguration.framework in Frameworks */,
+				1B6B9842259AE391007F2106 /* VideoToolbox.framework in Frameworks */,
+				1B6B9848259AE3C5007F2106 /* Accelerate.framework in Frameworks */,
+				1B6B9838259AE373007F2106 /* libc++.tbd in Frameworks */,
+				1B6B9834259AE359007F2106 /* CoreML.framework in Frameworks */,
+				1B6B982E259AE345007F2106 /* AudioToolbox.framework in Frameworks */,
+				1B6B9836259AE360007F2106 /* CoreTelephony.framework in Frameworks */,
+				1B6B9830259AE34C007F2106 /* AVFoundation.framework in Frameworks */,
+				1B6B983C259AE382007F2106 /* libresolv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6B97E3259ADFD2007F2106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6B97EE259ADFD2007F2106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B6B97C2259ADFCF007F2106 = {
+			isa = PBXGroup;
+			children = (
+				1B6B97CD259ADFCF007F2106 /* AudioCollection-Agora */,
+				1B6B97E9259ADFD2007F2106 /* AudioCollection-AgoraTests */,
+				1B6B97F4259ADFD2007F2106 /* AudioCollection-AgoraUITests */,
+				1B6B97CC259ADFCF007F2106 /* Products */,
+				1B6B9820259AE2BB007F2106 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B6B97CC259ADFCF007F2106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B6B97CB259ADFCF007F2106 /* AudioCollection-Agora.app */,
+				1B6B97E6259ADFD2007F2106 /* AudioCollection-AgoraTests.xctest */,
+				1B6B97F1259ADFD2007F2106 /* AudioCollection-AgoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B6B97CD259ADFCF007F2106 /* AudioCollection-Agora */ = {
+			isa = PBXGroup;
+			children = (
+				1B6B984D259AE416007F2106 /* AgoraRtcKit.framework */,
+				1B6B9853259AE513007F2106 /* MIAudioUnit.h */,
+				1B6B9854259AE513007F2106 /* MIAudioUnit.m */,
+				1B6B9858259AE528007F2106 /* MIConst.h */,
+				1B6B97CE259ADFCF007F2106 /* AppDelegate.h */,
+				1B6B97CF259ADFCF007F2106 /* AppDelegate.m */,
+				1B6B97D1259ADFCF007F2106 /* SceneDelegate.h */,
+				1B6B97D2259ADFCF007F2106 /* SceneDelegate.m */,
+				1B6B97D4259ADFCF007F2106 /* ViewController.h */,
+				1B6B97D5259ADFCF007F2106 /* ViewController.m */,
+				1B6B97D7259ADFCF007F2106 /* Main.storyboard */,
+				1B6B97DA259ADFD2007F2106 /* Assets.xcassets */,
+				1B6B97DC259ADFD2007F2106 /* LaunchScreen.storyboard */,
+				1B6B97DF259ADFD2007F2106 /* Info.plist */,
+				1B6B97E0259ADFD2007F2106 /* main.m */,
+			);
+			path = "AudioCollection-Agora";
+			sourceTree = "<group>";
+		};
+		1B6B97E9259ADFD2007F2106 /* AudioCollection-AgoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B6B97EA259ADFD2007F2106 /* AudioCollection_AgoraTests.m */,
+				1B6B97EC259ADFD2007F2106 /* Info.plist */,
+			);
+			path = "AudioCollection-AgoraTests";
+			sourceTree = "<group>";
+		};
+		1B6B97F4259ADFD2007F2106 /* AudioCollection-AgoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B6B97F5259ADFD2007F2106 /* AudioCollection_AgoraUITests.m */,
+				1B6B97F7259ADFD2007F2106 /* Info.plist */,
+			);
+			path = "AudioCollection-AgoraUITests";
+			sourceTree = "<group>";
+		};
+		1B6B9820259AE2BB007F2106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B6B9847259AE3C5007F2106 /* Accelerate.framework */,
+				1B6B9841259AE391007F2106 /* VideoToolbox.framework */,
+				1B6B983F259AE389007F2106 /* SystemConfiguration.framework */,
+				1B6B983B259AE37B007F2106 /* libresolv.tbd */,
+				1B6B9837259AE36C007F2106 /* libc++.tbd */,
+				1B6B9835259AE360007F2106 /* CoreTelephony.framework */,
+				1B6B9833259AE359007F2106 /* CoreML.framework */,
+				1B6B9831259AE353007F2106 /* CoreMedia.framework */,
+				1B6B982F259AE34C007F2106 /* AVFoundation.framework */,
+				1B6B982D259AE345007F2106 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B6B97CA259ADFCF007F2106 /* AudioCollection-Agora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B6B97FA259ADFD2007F2106 /* Build configuration list for PBXNativeTarget "AudioCollection-Agora" */;
+			buildPhases = (
+				1B6B97C7259ADFCF007F2106 /* Sources */,
+				1B6B97C8259ADFCF007F2106 /* Frameworks */,
+				1B6B97C9259ADFCF007F2106 /* Resources */,
+				1B6B9813259AE189007F2106 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AudioCollection-Agora";
+			productName = "AudioCollection-Agora";
+			productReference = 1B6B97CB259ADFCF007F2106 /* AudioCollection-Agora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B6B97E5259ADFD2007F2106 /* AudioCollection-AgoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B6B97FD259ADFD2007F2106 /* Build configuration list for PBXNativeTarget "AudioCollection-AgoraTests" */;
+			buildPhases = (
+				1B6B97E2259ADFD2007F2106 /* Sources */,
+				1B6B97E3259ADFD2007F2106 /* Frameworks */,
+				1B6B97E4259ADFD2007F2106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B6B97E8259ADFD2007F2106 /* PBXTargetDependency */,
+			);
+			name = "AudioCollection-AgoraTests";
+			productName = "AudioCollection-AgoraTests";
+			productReference = 1B6B97E6259ADFD2007F2106 /* AudioCollection-AgoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B6B97F0259ADFD2007F2106 /* AudioCollection-AgoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B6B9800259ADFD2007F2106 /* Build configuration list for PBXNativeTarget "AudioCollection-AgoraUITests" */;
+			buildPhases = (
+				1B6B97ED259ADFD2007F2106 /* Sources */,
+				1B6B97EE259ADFD2007F2106 /* Frameworks */,
+				1B6B97EF259ADFD2007F2106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B6B97F3259ADFD2007F2106 /* PBXTargetDependency */,
+			);
+			name = "AudioCollection-AgoraUITests";
+			productName = "AudioCollection-AgoraUITests";
+			productReference = 1B6B97F1259ADFD2007F2106 /* AudioCollection-AgoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B6B97C3259ADFCF007F2106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1B6B97CA259ADFCF007F2106 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					1B6B97E5259ADFD2007F2106 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1B6B97CA259ADFCF007F2106;
+					};
+					1B6B97F0259ADFD2007F2106 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1B6B97CA259ADFCF007F2106;
+					};
+				};
+			};
+			buildConfigurationList = 1B6B97C6259ADFCF007F2106 /* Build configuration list for PBXProject "AudioCollection-Agora" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B6B97C2259ADFCF007F2106;
+			productRefGroup = 1B6B97CC259ADFCF007F2106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B6B97CA259ADFCF007F2106 /* AudioCollection-Agora */,
+				1B6B97E5259ADFD2007F2106 /* AudioCollection-AgoraTests */,
+				1B6B97F0259ADFD2007F2106 /* AudioCollection-AgoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B6B97C9259ADFCF007F2106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6B97DE259ADFD2007F2106 /* LaunchScreen.storyboard in Resources */,
+				1B6B97DB259ADFD2007F2106 /* Assets.xcassets in Resources */,
+				1B6B97D9259ADFCF007F2106 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6B97E4259ADFD2007F2106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6B97EF259ADFD2007F2106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B6B97C7259ADFCF007F2106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6B97D6259ADFCF007F2106 /* ViewController.m in Sources */,
+				1B6B97D0259ADFCF007F2106 /* AppDelegate.m in Sources */,
+				1B6B9855259AE513007F2106 /* MIAudioUnit.m in Sources */,
+				1B6B97E1259ADFD2007F2106 /* main.m in Sources */,
+				1B6B97D3259ADFCF007F2106 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6B97E2259ADFD2007F2106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6B97EB259ADFD2007F2106 /* AudioCollection_AgoraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6B97ED259ADFD2007F2106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6B97F6259ADFD2007F2106 /* AudioCollection_AgoraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B6B97E8259ADFD2007F2106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B6B97CA259ADFCF007F2106 /* AudioCollection-Agora */;
+			targetProxy = 1B6B97E7259ADFD2007F2106 /* PBXContainerItemProxy */;
+		};
+		1B6B97F3259ADFD2007F2106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B6B97CA259ADFCF007F2106 /* AudioCollection-Agora */;
+			targetProxy = 1B6B97F2259ADFD2007F2106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B6B97D7259ADFCF007F2106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B6B97D8259ADFCF007F2106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B6B97DC259ADFD2007F2106 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B6B97DD259ADFD2007F2106 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B6B97F8259ADFD2007F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B6B97F9259ADFD2007F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B6B97FB259ADFD2007F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioCollection-Agora",
+				);
+				INFOPLIST_FILE = "AudioCollection-Agora/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shine.AudioCollection-Agora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B6B97FC259ADFD2007F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioCollection-Agora",
+				);
+				INFOPLIST_FILE = "AudioCollection-Agora/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shine.AudioCollection-Agora";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B6B97FE259ADFD2007F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				INFOPLIST_FILE = "AudioCollection-AgoraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shine.AudioCollection-AgoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioCollection-Agora.app/AudioCollection-Agora";
+			};
+			name = Debug;
+		};
+		1B6B97FF259ADFD2007F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				INFOPLIST_FILE = "AudioCollection-AgoraTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shine.AudioCollection-AgoraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioCollection-Agora.app/AudioCollection-Agora";
+			};
+			name = Release;
+		};
+		1B6B9801259ADFD2007F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				INFOPLIST_FILE = "AudioCollection-AgoraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shine.AudioCollection-AgoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AudioCollection-Agora";
+			};
+			name = Debug;
+		};
+		1B6B9802259ADFD2007F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				INFOPLIST_FILE = "AudioCollection-AgoraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shine.AudioCollection-AgoraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AudioCollection-Agora";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B6B97C6259ADFCF007F2106 /* Build configuration list for PBXProject "AudioCollection-Agora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6B97F8259ADFD2007F2106 /* Debug */,
+				1B6B97F9259ADFD2007F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B6B97FA259ADFD2007F2106 /* Build configuration list for PBXNativeTarget "AudioCollection-Agora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6B97FB259ADFD2007F2106 /* Debug */,
+				1B6B97FC259ADFD2007F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B6B97FD259ADFD2007F2106 /* Build configuration list for PBXNativeTarget "AudioCollection-AgoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6B97FE259ADFD2007F2106 /* Debug */,
+				1B6B97FF259ADFD2007F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B6B9800259ADFD2007F2106 /* Build configuration list for PBXNativeTarget "AudioCollection-AgoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6B9801259ADFD2007F2106 /* Debug */,
+				1B6B9802259ADFD2007F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B6B97C3259ADFCF007F2106 /* Project object */;
+}
